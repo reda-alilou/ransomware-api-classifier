@@ -1,0 +1,17 @@
+# Ignore environment folders
+tf_env_*/
+.venv/
+venv/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore zip and video files
+*.zip
+video/
+*.mp4
+*.avi
+
+# Ignore generated models 
+*.pkl
+*.json
